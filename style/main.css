@@ -131,10 +131,12 @@ p a {
 }
 
 .primary-nav {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: .5px;
     text-transform: uppercase;
+    padding: 15px 0 0 0;
+
 }
 
 .nav {
@@ -145,6 +147,19 @@ p a {
     border-top: 4px solid #648880;
     float: left;
     font-size: 48px;
-    line-height: 44px;
-    padding: 40px 0 22px 0;
+    line-height: 0;
+    padding: 5px 0 20px 0;
+}
+
+header {
+    margin-bottom: 44px;
+}
+
+.reviewHeader {
+    line-height: 0;
+    margin-bottom: 22px;
+}
+
+.bookInfo h4 {
+    display: inline;
 }
