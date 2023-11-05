@@ -6,6 +6,7 @@
 body {
     color: #888;
     font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
 }
 
 strong {
@@ -67,7 +68,7 @@ h1, h2, h3, h4, p {
 }
 
 h1, h2, h3, h4 {
-    color: #648880;
+    color: #000000;
 }
 
 h1 {
@@ -85,7 +86,7 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 h5 {
@@ -93,7 +94,11 @@ h5 {
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
-  }
+}
+
+em {
+    font-weight: 700;
+}
 
 /*
   ========================================
@@ -101,12 +106,12 @@ h5 {
   ========================================
 */
 a {
-    color: #648880;
+    color: #fae1be;
     text-decoration: none;
 }
 
 a:hover {
-    color: #a9b2b9;
+    color: #faeddb;
 }
 
 p a {
@@ -118,48 +123,66 @@ p a {
     Main
     ========================================
 */
+/* Footer */
 .primary-footer {
     color: #648880;
     font-size: 14px;
     padding-bottom: 44px;
     padding-top: 44px;
+    background-color: #181d23;
 }
 
 .primary-footer small {
     float: left;
     font-weight: 400;
+    color: #fae1be;
 }
 
+/* NAV */
 .primary-nav {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: .5px;
     text-transform: uppercase;
     padding: 15px 0 0 0;
-
 }
 
 .nav {
     text-align: right;
 }
 
+/* Header */
 .logo {
-    border-top: 4px solid #648880;
+    border-top: 4px solid #fae1be;
     float: left;
     font-size: 48px;
     line-height: 0;
     padding: 5px 0 20px 0;
 }
 
-header {
-    margin-bottom: 44px;
+.logo h1, h5 {
+    color: #fae1be;
 }
 
+header {
+    margin-bottom: 44px;
+    background-color: #181d23;
+}
+
+/* Reviews */
 .reviewHeader {
-    line-height: 0;
     margin-bottom: 22px;
 }
 
-.bookInfo h4 {
+.bookInfo li {
     display: inline;
 }
+
+.titleAndAuthor h3, h4 {
+    display: inline;
+}
+
+.reviewBody {
+    color: #000000;
+}
+
