@@ -33,7 +33,7 @@ cite, em {
 
 .container,
 .grid {
-  margin: 0 auto;
+  margin: auto;
   width: 960px;
 }
 .container {
