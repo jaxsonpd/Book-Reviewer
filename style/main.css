@@ -10,7 +10,7 @@ body {
 }
 
 strong {
-    font-weight: 400;
+    font-weight: 700;
 }
 
 cite, em {
@@ -103,6 +103,11 @@ em {
     font-weight: 700;
 }
 
+ol li {
+    margin-left: 40px;
+    list-style:decimal;
+}
+
 /*
   ========================================
   Links
@@ -150,7 +155,7 @@ header {
 */
 .primary-nav {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: .5px;
     text-transform: uppercase;
     padding: 60px 0 0 0;
@@ -193,7 +198,7 @@ header {
     padding-bottom: 40px;
 }
 
-#LatestReviews {
+#LatestReviewsTitle {
     margin: 0 auto;
     display: block;
     width: 960px;
@@ -205,7 +210,7 @@ header {
     border-radius: 5px;
 }
 
-#LatestReviews h1 {
+#LatestReviewsTitle h1 {
     margin: 0 auto;
     display: block;
     width: 960px;
@@ -226,6 +231,54 @@ header {
     display: inline;
 }
 
-.reviewBody {
-    color: #000000;
+/*
+    ========================================
+    Reviews
+    ========================================
+*/
+#ReviewsTitle {
+    margin: 0 auto;
+    display: block;
+    width: 960px;
+    background-image: url("../Graphics/ReviewsTitleImage.png");
+    background-size: 960px;
+    background-repeat: no-repeat;
+    padding: 150px 0 10px 0;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#ReviewsTitle h1 {
+    margin: 0 auto;
+    display: block;
+    width: 960px;
+    font-size: 80px;
+    line-height: 44px;
+    color: #ffffff;
+}
+
+/*
+    ========================================
+    About
+    ========================================
+*/
+#AboutTitle {
+    margin: 0 auto;
+    display: block;
+    width: 960px;
+    background-image: url("../Graphics/AboutTitleImage.png");
+    background-size: 960px;
+    background-repeat: no-repeat;
+    padding: 150px 0 10px 0;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#AboutTitle h1 {
+    margin: 0 auto;
+    display: block;
+    width: 960px;
+    font-size: 80px;
+    line-height: 44px;
+    color: #ffffff;
 }
